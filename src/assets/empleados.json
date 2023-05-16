@@ -1,0 +1,121 @@
+[{
+		"_idEmpleado": "Empleado1",
+		"RFC": "ERFC0001",
+		"Nombre": "Juan Hernández",
+		"Cel": "555-5678",
+		"Actividades": ["Albañil", "Pintor"],
+		"Pago": 20000
+	},
+	{
+		"_idEmpleado": "Empleado2",
+		"RFC": "ERFC0002",
+		"Nombre": "Miguel Rodríguez",
+		"Cel": "555-9012",
+		"Actividades": ["Fontanero"],
+		"Pago": 15000
+	},
+	{
+		"_idEmpleado": "Empleado3",
+		"RFC": "ERFC0003",
+		"Nombre": "Luis López",
+		"Cel": "555-5678",
+		"Actividades": ["Albañil", "Pintor"],
+		"Pago": 40000
+	},
+	{
+		"_idEmpleado": "Empleado4",
+		"RFC": "ERFC0004",
+		"Nombre": "Jorge García",
+		"Cel": "555-1234",
+		"Actividades": ["Arquitecto"],
+		"Pago": 80000
+	},
+	{
+		"_idEmpleado": "Empleado5",
+		"RFC": "ERFC0005",
+		"Nombre": "Francisco Martínez",
+		"Cel": "555-3456",
+		"Actividades": ["Electricista"],
+		"Pago": 30000
+	},
+	{
+		"_idEmpleado": "Empleado6",
+		"RFC": "ERFC0006",
+		"Nombre": "Pedro Gomez",
+		"Cel": "555-5678",
+		"Actividades": ["Albañil", "Pintor"],
+		"Pago": 20000
+	},
+	{
+		"_idEmpleado": "Empleado7",
+		"RFC": "ERFC0007",
+		"Nombre": "Luis Rodriguez",
+		"Cel": "555-9012",
+		"Actividades": ["Fontanero"],
+		"Pago": 15000
+	},
+	{
+		"_idEmpleado": "Empleado8",
+		"RFC": "ERFC0008",
+		"Nombre": "Pedro Gomez",
+		"Cel": "555-5678",
+		"Actividades": ["Albañil", "Pintor"],
+		"Pago": 40000
+	},
+	{
+		"_idEmpleado": "Empleado9",
+		"RFC": "ERFC0009",
+		"Nombre": "Juan Perez",
+		"Cel": "555-1234",
+		"Actividades": ["Arquitecto"],
+		"Pago": 80000
+	},
+	{
+		"_idEmpleado": "Empleado10",
+		"RFC": "ERFC00010",
+		"Nombre": "Carlos Hernandez",
+		"Cel": "555-3456",
+		"Actividades": ["Electricista"],
+		"Pago": 30000
+	},
+	{
+		"_idEmpleado": "Empleado11",
+		"RFC": "ERFC00011",
+		"Nombre": "Ricardo García",
+		"Cel": "555-5678",
+		"Actividades": ["Albañil", "Pintor"],
+		"Pago": 20000
+	},
+	{
+		"_idEmpleado": "Empleado12",
+		"RFC": "ERFC00012",
+		"Nombre": "Luis Torres",
+		"Cel": "555-9012",
+		"Actividades": ["Fontanero"],
+		"Pago": 15000
+	},
+	{
+		"_idEmpleado": "Empleado13",
+		"RFC": "ERFC00013",
+		"Nombre": "Eduardo Hernández",
+		"Cel": "555-5678",
+		"Actividades": ["Albañil", "Pintor"],
+		"Pago": 40000
+	},
+	{
+		"_idEmpleado": "Empleado14",
+		"RFC": "ERFC00014",
+		"Nombre": "Juan Ortiz",
+		"Cel": "555-1234",
+		"Actividades": ["Arquitecto"],
+		"Pago": 80000
+	},
+	{
+		"_idEmpleado": "Empleado15",
+		"RFC": "ERFC00015",
+		"Nombre": "Miguel Hernandez",
+		"Cel": "555-3456",
+		"Actividades": ["Electricista"],
+		"Pago": 30000
+	}
+]

@@ -1,0 +1,86 @@
+[
+    {
+    "idObra": 1,
+    "Descripcion": "Remodelación cocina",
+    "CostoBase": 100000,
+    "idCliente": "Cliente1",
+    "idEmpleados": ["Empleado1", "Empleado2"]
+    },
+    {
+    "idObra": 2,
+    "Descripcion": "Construcción casa",
+    "CostoBase": 500000,
+    "idCliente": "Cliente1",
+    "idEmpleados": ["Empleado3", "Empleado4", "Empleado5"]
+    },
+    {
+    "idObra": 3,
+    "Descripcion": "Remodelación cocina",
+    "CostoBase": 100000,
+    "idCliente": "Cliente2",
+    "idEmpleados": ["Empleado6", "Empleado7"]
+    },
+    {
+    "idObra": 4,
+    "Descripcion": "Construcción casa",
+    "CostoBase": 500000,
+    "idCliente": "Cliente2",
+    "idEmpleados": ["Empleado8", "Empleado9", "Empleado10"]
+    },
+    {
+    "idObra": 5,
+    "Descripcion": "Remodelación cocina",
+    "CostoBase": 100000,
+    "idCliente": "Cliente3",
+    "idEmpleados": ["Empleado11", "Empleado12"]
+    },
+    {
+    "idObra": 6,
+    "Descripcion": "Construcción casa",
+    "CostoBase": 500000,
+    "idCliente": "Cliente3",
+    "idEmpleados": ["Empleado13", "Empleado14", "Empleado15"]
+    },
+    {
+    "idObra": 7,
+    "Descripcion": "Remodelación cocina",
+    "CostoBase": 100000,
+    "idCliente": "Cliente4",
+    "idEmpleados": ["Empleado10", "Empleado7"]
+    },
+    {
+    "idObra": 8,
+    "Descripcion": "Construcción casa",
+    "CostoBase": 500000,
+    "idCliente": "Cliente4",
+    "idEmpleados": ["Empleado8", "Empleado9", "Empleado12"]
+    },
+    {
+    "idObra": 9,
+    "Descripcion": "Remodelación cocina",
+    "CostoBase": 100000,
+    "idCliente": "Cliente5",
+    "idEmpleados": ["Empleado1", "Empleado12"]
+    },
+    {
+    "idObra": 10,
+    "Descripcion": "Construcción casa",
+    "CostoBase": 500000,
+    "idCliente": "Cliente5",
+    "idEmpleados": ["Empleado3", "Empleado14", "Empleado15"]
+    },
+    {
+    "idObra": 11,
+    "Descripcion": "Remodelación cocina",
+    "CostoBase": 100000,
+    "idCliente": "Cliente6",
+    "idEmpleados": ["Empleado16", "Empleado17"]
+    },
+    {
+    "idObra": 12,
+    "Descripcion": "Construcción casa",
+    "CostoBase": 500000,
+    "idCliente": "Cliente6",
+    "idEmpleados": ["Empleado13", "Empleado9", "Empleado3"]
+    }
+]

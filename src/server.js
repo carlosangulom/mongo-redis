@@ -24,9 +24,9 @@ const obrasData = JSON.parse(fs.readFileSync("src/assets/obras.json", "utf-8"));
 async function connect() {
   try {
     await mongoose.connect("mongodb://localhost:27017/Obras");
-    await Cliente.collection.drop();
-    await Obra.collection.drop();
-    await Empleado.collection.drop();
+    // await Cliente.collection.drop();
+    // await Obra.collection.drop();
+    // await Empleado.collection.drop();
 
     await Cliente.create(clienteData);
     await Empleado.create(empleadoData);

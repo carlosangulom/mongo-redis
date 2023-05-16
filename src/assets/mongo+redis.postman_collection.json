@@ -1,0 +1,272 @@
+{
+	"info": {
+		"_postman_id": "d1e018d5-88f6-4e23-9835-12258ce6e384",
+		"name": "mongo+redis",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "http://localhost:3000/api/empleado/Empleado1",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3000/api/empleado/Empleado1",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"empleado",
+						"Empleado1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:3000/api/obra/1",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3000/api/obra/2",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"obra",
+						"2"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:3000/api/obra/pago/1",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3000/api/obra/pago/1",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"obra",
+						"pago",
+						"1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:3000/api/cliente/Q5/Cliente1",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3000/api/cliente/Q5/Cliente1",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"cliente",
+						"Q5",
+						"Cliente1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:3000/api/cliente",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"idCliente\": \"Cliente10\",\n    \"RFC\": \"RFC00010\",\n    \"Nombre\": \"Checo Pérez\",\n    \"Cel\": \"3322111223\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:3000/api/cliente/nuevo",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"cliente",
+						"nuevo"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:3000/api/obra/nueva/Cliente1",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"idObra\": 20,\n    \"Descripcion\": \"Baño y alberca\",\n    \"CostoBase\": 3000\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:3000/api/obra/nueva/Cliente1",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"obra",
+						"nueva",
+						"Cliente1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:3000/api/empleado/nuevo/Obra20",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"idEmpleado\": \"Empleado56\",\n    \"RFC\": \"ERFC00056\",\n    \"Nombre\": \"José José Jr\",\n    \"Cel\": \"32220023234\",\n    \"Pago\": 6500,\n    \"Actividades\": [\"Bailar\", \"Cantar\", \"Pintura\"]\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:3000/api/empleado/nuevo/Obra20",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"empleado",
+						"nuevo",
+						"Obra20"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:3000/api/cliente/Cliente4",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"RFC\": \"NRFC0004\",\n    \"Nombre\": \"Juan\",\n    \"Cel\": \"22233322\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:3000/api/cliente/Cliente4",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"cliente",
+						"Cliente4"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:3000/api/obra/2",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"Descripcion\": \"Banqueta\",\n    \"CostoBase\": 34000,\n    \"idCliente\": \"Cliente2\",\n    \"idEmpleados\": [\"Empleado2\", \"Empleado5\"]\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:3000/api/obra/2",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"obra",
+						"2"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:3000/api/empleado/Empleado1",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"RFC\": \"ERFC00056\",\n    \"Nombre\": \"José José Jr\",\n    \"Cel\": \"32220023234\",\n    \"Pago\": 6500,\n    \"Actividades\": [\"Bailar\", \"Cantar\", \"Pintura\"]\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:3000/api/empleado/Empleado1",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"empleado",
+						"Empleado1"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
